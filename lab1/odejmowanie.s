@@ -32,7 +32,7 @@ dekrementacja:
 	# pobieramy kolejne wartosci liczac od konca
 	mov liczba1(,%ecx,4), %eax
 	mov liczba2(,%ecx,4), %ebx
-	adcl %ebx, %eax
+	sbb %ebx, %eax
 	push %eax
 
 	# jesli ecx pusty, konczymy	
