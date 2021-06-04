@@ -1,0 +1,7 @@
+Typ obliczen: SIMD
+Liczb liczb: 8192
+Sredni czas [s]:
++ 0.004162
+- 0.004156
+* 0.004168
+/ 0.004116
